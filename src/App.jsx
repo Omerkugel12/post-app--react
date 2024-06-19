@@ -17,7 +17,7 @@ function App() {
           <Route path=":postId" element={<PostDetailsPage />} />
           <Route path="create" element={<CreatePostPage />} />
         </Route>
-        <Route path="/user" element={<UserProfilePage />} />
+        {/* <Route path="/user" element={<UserProfilePage />} /> */}
         <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </>
