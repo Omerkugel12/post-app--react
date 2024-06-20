@@ -22,7 +22,7 @@ function PostItem({ post }) {
           <p>likes: {post.reactions.likes}</p>
           <p>created at: {post.createdAt}</p>
           <p>updated at: {post.updatedAt}</p>
-          <Link to={":postId"}>
+          <Link to={post.id}>
             <button>More details</button>
           </Link>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import PostItem from "./PostItem";
 
 function PostsList({ data }) {
+  // console.log(data);
   return (
     <>
       <ul className="post-list">
